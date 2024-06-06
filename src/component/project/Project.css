@@ -1,0 +1,129 @@
+.project__container {
+  width: 100%;
+  padding: 6px;
+}
+.project__container > h1 {
+  text-align: center;
+  box-shadow: 0px 0px 5px black;
+  font-style: italic;
+  color: rgb(231, 161, 8);
+  /* background-color: rgb(1, 10, 37); */
+}
+.project__box {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.project__box > div {
+  border-bottom: 2px solid black;
+  margin: 5px;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+.project__box > div > p {
+  font-size: 20px;
+  width: 100%;
+  font-weight: normal;
+  font-style: italic;
+  color: rgb(175, 106, 16);
+}
+.project__box > div > h3 {
+    font-size: 20px;
+    width: 100%;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(241, 145, 1);
+  }
+.project__box > div > img {
+  height: 300px;
+  width: 600px;
+  border-radius: 3px;
+  transition: all 0.5s;
+  scale: 1;
+}
+.project__box__2 > div {
+  position: absolute;
+  margin: 5px;
+  z-index: 11;
+}
+.project__box>div>h3 {
+   font-style: italic;
+   display: flex;
+  }
+.project__box__2 > div > a > button {
+  margin: 5px;
+  padding: 8px 128px;
+  border: navajowhite;
+  font-weight: bold;
+  transition: all 0.5s;
+  background-color: rgb(207, 207, 214);
+}
+.project__box__2 > div > a > button:hover {
+  background-color: rgb(255, 94, 0);
+  color: white;
+  border-radius: 3px;
+}
+.project__icon{
+    color: red !important;
+    font-size: 20px;
+}
+.project__box > div > img:hover {
+    opacity: 0.7;
+    scale: 1.1;
+}
+@media (max-width: 750px) and (min-width: 355px) {
+    .project__container > h1 {
+        text-align: center;
+        box-shadow: 0px 0px 5px black; 
+        font-style: italic;
+        color: rgb(231, 161, 8);
+        background-color: rgb(1, 10, 37);
+        font-size: 20px;
+        /* background-color: rgb(1, 10, 37); */
+      }
+    .project__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .project__box > div > img {
+    height: 300px;
+    width: 100%;
+  }
+
+}
+@media (max-width: 350px) and (min-width: 255px) {
+    .project__container > h1 {
+        text-align: center;
+        box-shadow: 0px 0px 5px black; 
+        font-style: italic;
+        color: rgb(231, 161, 8);
+        background-color: rgb(1, 10, 37);
+        font-size: 20px;
+        /* background-color: rgb(1, 10, 37); */
+      }
+    .project__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      .project__box__2 > div > a > button {
+        margin: 5px;
+        padding:4px 47px;
+        border: navajowhite;
+        font-weight: bold;
+        transition: all 0.5s;
+        background-color: rgb(207, 207, 214);
+      }
+      .project__box > div > img {
+        height: 300px;
+        width: 98%;
+      }
+      .project__box > div > p {
+        font-size: 15px;
+        width: 98%;
+      }
+}
