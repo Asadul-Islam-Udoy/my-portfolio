@@ -170,7 +170,7 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 750px) and (min-width:400px) {
   .header__box {
     display: grid;
     grid-template-columns: 1fr;
@@ -246,13 +246,13 @@
   .header__title > div > h1 {
     font-size: 40px;
     font-style: italic;
-    margin-right: 100px;
+    margin-right: 0px;
   }
   .header__title > div > h3 {
     font-size: 15px;
     margin-top: -5px;
     font-style: italic;
-    margin-right: 100px;
+    margin-right: 0px;
     color: rgb(160, 137, 6);
   }
   .about__me__section {
